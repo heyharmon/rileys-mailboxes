@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-yellow-50">
+  <section class="py-16 bg-[#fcf7e8]">
     <div class="max-w-6xl mx-auto px-8">
       <h2 class="text-3xl md:text-4xl font-black text-center mb-12 text-gray-800 uppercase tracking-tight">CHOOSE YOUR SETUP</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -9,7 +9,7 @@
           </div>
           <div class="p-6">
             <h3 class="text-lg font-extrabold mb-2 text-gray-800 uppercase tracking-wide">MAILBOX INSTALL</h3>
-            <p class="text-xl font-bold text-gray-700 mb-4">$129</p>
+            <p class="text-xl font-bold text-gray-700 mb-4">$229</p>
             <p class="text-sm leading-relaxed text-gray-600 m-0">
               Receive expert tips for getting started, a
               checklist for your first year of business,

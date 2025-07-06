@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[#fcf7e8]">
     <TheHeader />
     <Hero />
     <Feature />
