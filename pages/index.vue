@@ -1,10 +1,10 @@
 <template>
   <div>
     <TheHeader />
-    <HeroSection />
-    <MailboxFeatureSection />
-    <SetupCardsSection />
-    <HowItWorksSection />
+    <Hero />
+    <Feature />
+    <Cards />
+    <HowItWorks />
     <CtaSection />
     <TheFooter />
   </div>

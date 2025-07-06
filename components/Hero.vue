@@ -1,9 +1,9 @@
 <template>
   <section class="relative h-screen w-full flex items-center justify-center text-center text-white overflow-hidden">
-    <div class="absolute inset-0 bg-gray-800 bg-opacity-50 z-10" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 z-10" style="background: url('https://placehold.co/600x400'); background-size: cover; background-position: center;">
       <!-- We'll use a div with background styling for now, but in production you would use NuxtImg -->
     </div>
-    <div class="absolute inset-0 bg-black bg-opacity-30 z-20"></div>
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-20"></div>
     <div class="relative z-30 max-w-4xl px-8">
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight uppercase">
         FRESH MAILBOXES,<br />
