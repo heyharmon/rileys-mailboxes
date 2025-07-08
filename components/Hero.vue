@@ -1,9 +1,9 @@
 <template>
-    <section class="relative h-[80vh] w-full rounded-[7rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden">
+    <section class="relative h-[80vh] w-full rounded-[4rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden">
       <!-- Background image layer -->
       <div class="absolute inset-0 z-10">
         <NuxtImg 
-          src="https://images.unsplash.com/photo-1751378639257-0aca1af0089b?q=80&w=2605&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          src="/images/homepage/hero.png" 
           alt="Background" 
           class="w-full h-full object-cover"
         />

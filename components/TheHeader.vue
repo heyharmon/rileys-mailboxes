@@ -11,7 +11,7 @@
         </div>
         <div class="absolute left-1/2 transform -translate-x-1/2">
           <NuxtLink to="/" class="flex items-center no-underline">
-            <img src="~/assets/images/logo-light.svg" alt="Riley's Mailboxes" class="h-20 w-auto">
+            <img src="/public/images/logo-light.svg" alt="Riley's Mailboxes" class="h-20 w-auto">
           </NuxtLink>
         </div>
         <div>
