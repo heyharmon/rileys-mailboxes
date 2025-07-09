@@ -1,5 +1,5 @@
 <template>
-  <section :class="`relative ${height} w-full rounded-[4rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden`">
+  <section :class="`relative ${height} w-full rounded-[3rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden`">
     <!-- Background image layer -->
     <div class="absolute inset-0 z-10">
       <NuxtImg 
@@ -10,7 +10,7 @@
     </div>
     
     <!-- Dark overlay -->
-    <div class="absolute inset-0 bg-black/60 z-20"></div>
+    <div class="absolute inset-0 bg-gray-900/60 z-20"></div>
     
     <!-- Content -->
     <div class="relative z-30 max-w-4xl px-8" :class="paddingTop">
@@ -55,7 +55,7 @@ const props = defineProps({
   },
   height: {
     type: String,
-    default: 'h-[80vh]'
+    default: 'h-[68vh]'
   },
   paddingTop: {
     type: String,

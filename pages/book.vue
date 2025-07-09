@@ -300,10 +300,9 @@ const handleSubmit = async (event) => {
         body: formDataToSubmit
       })
       
-      // Redirect or show success message
+      // Redirect to success page
       console.log('Form submitted successfully:', response)
-      // You could redirect to a thank you page here
-      // await navigateTo('/thank-you')
+      await navigateTo('/book-success')
       
     } catch (error) {
       console.error('Form submission error:', error)

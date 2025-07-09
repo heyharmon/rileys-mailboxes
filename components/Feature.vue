@@ -5,18 +5,11 @@
         <div class="lg:w-5/12 lg:pl-8">
           <NuxtImg src="/images/homepage/riley-and-dad.png" alt="Riley and Dad" class="size-24 rounded-full mb-4 object-cover" />
           <h2 class="text-3xl md:text-4xl font-black leading-tight mb-6 text-gray-800 uppercase tracking-tight">
-            FATHER & SON
-            MAILBOX
-            MAKEOVERS
+            AFFORDABLE MAILBOX MAKEOVERS BY FATHER & SON
           </h2>
           <p class="text-lg leading-relaxed mb-8 text-gray-700 max-w-lg">
-            What started as a weekend project that sparked a
-            business. We are reviving Centerville's streets one
-            mailbox at a time.
+            What started as a weekend project that sparked a business. We are reviving Centerville's streets one mailbox at a time.
           </p>
-          <!-- <a href="/samples" class="inline-block bg-[#a74d4a] text-white px-8 py-3 text-base font-semibold no-underline rounded-none transition-colors duration-300 hover:bg-[#7c4242]">
-            Design Your Mailbox
-          </a> -->
         </div>
         <div class="lg:w-8/12">
           <div class="relative">
