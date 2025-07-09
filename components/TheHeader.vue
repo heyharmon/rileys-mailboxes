@@ -5,7 +5,6 @@
         <div class="hidden md:block">
           <ul class="flex list-none gap-8 m-0 p-0">
             <li><NuxtLink to="/about" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">About</NuxtLink></li>
-            <!-- <li><NuxtLink to="/showcase" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">Showcase</NuxtLink></li> -->
             <li><NuxtLink to="/contact" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">Contact</NuxtLink></li>
           </ul>
         </div>

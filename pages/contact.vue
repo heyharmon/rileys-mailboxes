@@ -2,27 +2,12 @@
   <div class="bg-[#fcf7e8]">
     <TheHeader />
     
-    <!-- Hero Section -->
-    <section class="relative h-[40vh] w-full rounded-[4rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden">
-      <!-- Background image layer -->
-      <div class="absolute inset-0 z-10">
-        <NuxtImg 
-          src="/images/homepage/green-house.png" 
-          alt="Background" 
-          class="w-full h-full object-cover"
-        />
-      </div>
-      
-      <!-- Dark overlay -->
-      <div class="absolute inset-0 bg-black/60 z-20"></div>
-      
-      <!-- Content -->
-      <div class="relative z-30 max-w-4xl px-8 pt-18">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl text-[#fcf7e8] font-extrabold mb-6 leading-tight uppercase">
-          CONTACT US
-        </h1>
-      </div>
-    </section>
+    <Hero 
+      title="CONTACT US"
+      background-image="/images/homepage/green-house.png"
+      height="h-[40vh]"
+      padding-top="pt-22"
+    />
 
     <!-- Contact Information Section -->
     <section class="py-20 bg-[#fcf7e8]">
@@ -136,41 +121,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Call to Action Section -->
-    <section class="relative py-40 text-white text-center overflow-hidden">
-      <!-- Background image layer -->
-      <div class="absolute inset-0 z-10">
-        <NuxtImg 
-          src="/images/homepage/green-house.png" 
-          alt="Beautiful home with fresh mailbox" 
-          class="w-full h-full object-cover"
-        />
-      </div>
-      
-      <!-- Dark overlay -->
-      <div class="absolute inset-0 bg-black/60 z-20"></div>
-      
-      <!-- Content -->
-      <div class="relative max-w-6xl mx-auto px-8 z-30">
-        <div class="flex flex-col items-center justify-center">
-          <h2 class="text-[#fcf7e8] text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 uppercase tracking-tight">
-            READY FOR YOUR
-            MAILBOX MAKEOVER?
-          </h2>
-          <p class="text-[#fcf7e8] text-xl md:text-2xl font-medium mb-12 tracking-wide">LET'S GET STARTED TODAY</p>
-          <div class="flex flex-col sm:flex-row gap-4 mt-4">
-            <NuxtLink to="/makeover" class="inline-block bg-[#e9ca5d] text-gray-800 px-10 py-3 text-lg font-semibold no-underline rounded transition-all duration-300 hover:bg-[#e9ca5d] hover:-translate-y-1">
-              Book Now
-            </NuxtLink>
-            <NuxtLink to="/quote" class="inline-block bg-[#fcf7e8] text-gray-800 px-10 py-3 text-lg font-semibold no-underline rounded transition-all duration-300 hover:-translate-y-1">
-              See a Sample
-            </NuxtLink>
-        </div>
-        </div>
-      </div>
-    </section>
-
+    
     <TheFooter />
   </div>
 </template>
