@@ -10,14 +10,6 @@
           </div>
           <p class="text-sm text-gray-300 m-0">Fresh mailboxes, fresh curb appeal.</p>
         </div>
-        <!-- <div class="md:text-left text-center">
-          <ul class="list-none p-0 m-0">
-            <li class="mb-2"><NuxtLink to="/about" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">About</NuxtLink></li>
-            <li class="mb-2"><NuxtLink to="/programs" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Programs</NuxtLink></li>
-            <li class="mb-2"><NuxtLink to="/press" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Press</NuxtLink></li>
-            <li class="mb-2"><NuxtLink to="/contact" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Contact</NuxtLink></li>
-          </ul>
-        </div> -->
         <div class="text-center">
           <p class="text-sm mb-4 text-gray-300">
             <strong>Get in touch</strong><br>

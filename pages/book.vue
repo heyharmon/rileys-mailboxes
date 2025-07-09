@@ -82,42 +82,48 @@
             <!-- Step 4: Best Day -->
             <div v-if="currentStep === 4" class="text-center">
               <h3 class="text-2xl font-bold text-gray-800 mb-6">What's your preferred day?</h3>
-              <div class="max-w-md mx-auto">
-                <select 
-                  ref="daySelect"
-                  v-model="formData.bestDay" 
-                  name="bestDay"
-                  class="w-full px-6 py-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#e9ca5d] focus:border-transparent text-center" 
-                  required
-                >
-                  <option value="">Select a day</option>
-                  <option value="Monday">Monday</option>
-                  <option value="Tuesday">Tuesday</option>
-                  <option value="Wednesday">Wednesday</option>
-                  <option value="Thursday">Thursday</option>
-                  <option value="Friday">Friday</option>
-                  <option value="Saturday">Saturday</option>
-                  <option value="Sunday">Sunday</option>
-                </select>
+              <div class="max-w-2xl mx-auto">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  <button
+                    v-for="day in dayOptions"
+                    :key="day"
+                    type="button"
+                    @click="formData.bestDay = day"
+                    :class="[
+                      'px-4 py-3 text-sm font-semibold rounded-full border-2 transition-all duration-200',
+                      formData.bestDay === day
+                        ? 'bg-[#e9ca5d] border-[#e9ca5d] text-gray-800'
+                        : 'bg-white border-gray-300 text-gray-700 hover:border-[#e9ca5d] hover:bg-[#e9ca5d]/10'
+                    ]"
+                  >
+                    {{ day }}
+                  </button>
+                </div>
+                <input type="hidden" name="bestDay" :value="formData.bestDay" />
               </div>
             </div>
 
             <!-- Step 5: Best Time -->
             <div v-if="currentStep === 5" class="text-center">
               <h3 class="text-2xl font-bold text-gray-800 mb-6">What's your preferred time?</h3>
-              <div class="max-w-md mx-auto">
-                <select 
-                  ref="timeSelect"
-                  v-model="formData.bestTime" 
-                  name="bestTime"
-                  class="w-full px-6 py-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#e9ca5d] focus:border-transparent text-center" 
-                  required
-                >
-                  <option value="">Select a time</option>
-                  <option value="Morning (8AM - 12PM)">Morning (8AM - 12PM)</option>
-                  <option value="Afternoon (12PM - 5PM)">Afternoon (12PM - 5PM)</option>
-                  <option value="Evening (5PM - 8PM)">Evening (5PM - 8PM)</option>
-                </select>
+              <div class="max-w-2xl mx-auto">
+                <div class="flex flex-col gap-3">
+                  <button
+                    v-for="time in timeOptions"
+                    :key="time"
+                    type="button"
+                    @click="formData.bestTime = time"
+                    :class="[
+                      'px-6 py-4 text-base font-semibold rounded-full border-2 transition-all duration-200',
+                      formData.bestTime === time
+                        ? 'bg-[#e9ca5d] border-[#e9ca5d] text-gray-800'
+                        : 'bg-white border-gray-300 text-gray-700 hover:border-[#e9ca5d] hover:bg-[#e9ca5d]/10'
+                    ]"
+                  >
+                    {{ time }}
+                  </button>
+                </div>
+                <input type="hidden" name="bestTime" :value="formData.bestTime" />
               </div>
             </div>
 
@@ -217,16 +223,18 @@ const formData = ref({
   name: '',
   phone: '',
   address: '',
-  bestDay: '',
-  bestTime: ''
+  bestDay: 'Any day',
+  bestTime: 'Any time'
 })
+
+// Options for pill buttons
+const dayOptions = ['Any day', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+const timeOptions = ['Any time','Morning (8AM - 12PM)', 'Afternoon (12PM - 5PM)', 'Evening (5PM - 8PM)']
 
 // Template refs for form inputs
 const nameInput = ref(null)
 const phoneInput = ref(null)
 const addressInput = ref(null)
-const daySelect = ref(null)
-const timeSelect = ref(null)
 
 const isCurrentStepValid = computed(() => {
   switch (currentStep.value) {
@@ -257,12 +265,6 @@ watch(currentStep, async (newStep) => {
       break
     case 3:
       addressInput.value?.focus()
-      break
-    case 4:
-      daySelect.value?.focus()
-      break
-    case 5:
-      timeSelect.value?.focus()
       break
   }
 }, { immediate: true })
@@ -301,7 +303,6 @@ const handleSubmit = async (event) => {
       })
       
       // Redirect to success page
-      console.log('Form submitted successfully:', response)
       await navigateTo('/book-success')
       
     } catch (error) {
