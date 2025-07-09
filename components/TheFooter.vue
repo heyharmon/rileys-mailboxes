@@ -23,7 +23,9 @@
             <strong>Get in touch</strong><br>
             Schedule your mailbox makeover today
           </p>
-          <NuxtLink to="/schedule" class="inline-block bg-[#e9ca5d] text-gray-800 px-6 py-3 rounded no-underline font-semibold transition-colors duration-300 hover:bg-[#fcf7e8]0">Schedule Demo</NuxtLink>
+          <NuxtLink to="/schedule" class="inline-block border border-[#e9ca5d] text-[#e9ca5d] px-6 py-3 rounded no-underline font-semibold transition-all duration-300 hover:-translate-y-1">
+            Book Now
+          </NuxtLink>
         </div>
       </div>
       <div class="border-t border-gray-600 pt-4 text-center">

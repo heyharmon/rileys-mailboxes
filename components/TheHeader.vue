@@ -5,7 +5,7 @@
         <div class="hidden md:block">
           <ul class="flex list-none gap-8 m-0 p-0">
             <li><NuxtLink to="/about" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">About</NuxtLink></li>
-            <li><NuxtLink to="/programs" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">Programs</NuxtLink></li>
+            <!-- <li><NuxtLink to="/showcase" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">Showcase</NuxtLink></li> -->
             <li><NuxtLink to="/contact" class="text-white no-underline font-medium transition-opacity duration-300 hover:opacity-80">Contact</NuxtLink></li>
           </ul>
         </div>
@@ -16,7 +16,7 @@
         </div>
         <div>
           <NuxtLink to="/schedule" class="border border-white text-white bg-neutral-800/60 px-6 py-3 no-underline font-semibold rounded transition-colors duration-300 hover:bg-white hover:text-black">
-            See Samples
+            Book Now
           </NuxtLink>
         </div>
       </nav>
