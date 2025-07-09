@@ -3,9 +3,10 @@
     <div class="max-w-6xl mx-auto px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8">
         <div class="md:text-left text-center">
-          <div class="flex flex-col items-start md:items-start items-center mb-4">
-            <span class="text-2xl md:text-3xl font-bold text-white italic">Riley's</span>
-            <span class="text-sm font-semibold text-yellow-400 tracking-wider">MAILBOXES</span>
+          <div class="mb-4">
+            <NuxtLink to="/" class="flex items-center no-underline">
+              <img src="/public/images/logo-light.svg" alt="Riley's Mailboxes" class="h-16 w-auto">
+            </NuxtLink>
           </div>
           <p class="text-sm text-gray-300 m-0">Fresh mailboxes, fresh curb appeal.</p>
         </div>

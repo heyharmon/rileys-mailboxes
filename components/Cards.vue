@@ -1,7 +1,9 @@
 <template>
   <section class="py-16 bg-[#fcf7e8]">
     <div class="max-w-6xl mx-auto px-8">
-      <h2 class="text-3xl md:text-4xl font-black text-center mb-12 text-gray-800 uppercase tracking-tight">CHOOSE YOUR SETUP</h2>
+      <h2 class="text-3xl md:text-4xl font-black text-center mb-12 text-gray-800 uppercase tracking-tight">
+        CHOOSE YOUR POST
+      </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-2">
           <div class="w-full h-48 overflow-hidden">
