@@ -146,12 +146,12 @@ useSeoMeta({
   description: 'Learn about Riley\'s Mailboxes, your locally owned and operated mailbox installation and renovation service in Centerville, Utah. Quality first, satisfaction guaranteed.',
   ogTitle: 'About Riley\'s Mailboxes - Local Centerville Mailbox Experts',
   ogDescription: 'Learn about Riley\'s Mailboxes, your locally owned and operated mailbox installation and renovation service in Centerville, Utah. Quality first, satisfaction guaranteed.',
-  ogImage: '/images/social/about-og.png',
+  ogImage: '/images/meta/default-og.png',
   ogUrl: 'https://rileysmailboxes.com/about',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'About Riley\'s Mailboxes - Local Centerville Mailbox Experts',
   twitterDescription: 'Learn about Riley\'s Mailboxes, your locally owned and operated mailbox installation and renovation service in Centerville, Utah. Quality first, satisfaction guaranteed.',
-  twitterImage: '/images/social/about-og.png'
+  twitterImage: '/images/meta/default-og.png'
 })
 </script>

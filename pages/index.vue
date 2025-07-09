@@ -35,12 +35,12 @@ useSeoMeta({
   description: 'Locally owned mailbox installation and renovation services in Centerville, Utah. Professional mailbox makeovers for $380 with satisfaction guaranteed.',
   ogTitle: 'Riley\'s Mailboxes - Fresh Mailboxes, Fresh Curb Appeal',
   ogDescription: 'Locally owned mailbox installation and renovation services in Centerville, Utah. Professional mailbox makeovers for $380 with satisfaction guaranteed.',
-  ogImage: '/images/social/homepage-og.png',
+  ogImage: '/images/meta/default-og.png',
   ogUrl: 'https://rileysmailboxes.com',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Riley\'s Mailboxes - Fresh Mailboxes, Fresh Curb Appeal',
   twitterDescription: 'Locally owned mailbox installation and renovation services in Centerville, Utah. Professional mailbox makeovers for $380 with satisfaction guaranteed.',
-  twitterImage: '/images/social/homepage-og.png'
+  twitterImage: '/images/meta/default-og.png'
 })
 </script>

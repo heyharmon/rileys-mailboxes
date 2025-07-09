@@ -134,12 +134,12 @@ useSeoMeta({
   description: 'Contact Riley\'s Mailboxes for your free mailbox makeover quote. Call (385) 207-5487, email hello@rileysmailboxes.com, or fill out our contact form. Serving Centerville, Utah.',
   ogTitle: 'Contact Riley\'s Mailboxes - Get Your Free Quote',
   ogDescription: 'Contact Riley\'s Mailboxes for your free mailbox makeover quote. Call (385) 207-5487, email hello@rileysmailboxes.com, or fill out our contact form. Serving Centerville, Utah.',
-  ogImage: '/images/social/contact-og.png',
+  ogImage: '/images/meta/default-og.png',
   ogUrl: 'https://rileysmailboxes.com/contact',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Contact Riley\'s Mailboxes - Get Your Free Quote',
   twitterDescription: 'Contact Riley\'s Mailboxes for your free mailbox makeover quote. Call (385) 207-5487, email hello@rileysmailboxes.com, or fill out our contact form. Serving Centerville, Utah.',
-  twitterImage: '/images/social/contact-og.png'
+  twitterImage: '/images/meta/default-og.png'
 })
 </script>

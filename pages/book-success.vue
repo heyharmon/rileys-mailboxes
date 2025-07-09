@@ -78,13 +78,13 @@ useSeoMeta({
   description: 'Thank you for booking your mailbox makeover appointment with Riley\'s Mailboxes! We\'ll contact you within 24 hours to confirm your visit and discuss your project.',
   ogTitle: 'Appointment Booked - Riley\'s Mailboxes',
   ogDescription: 'Thank you for booking your mailbox makeover appointment with Riley\'s Mailboxes! We\'ll contact you within 24 hours to confirm your visit and discuss your project.',
-  ogImage: '/images/social/book-success-og.png',
+  ogImage: '/images/meta/default-og.png',
   ogUrl: 'https://rileysmailboxes.com/book-success',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Appointment Booked - Riley\'s Mailboxes',
   twitterDescription: 'Thank you for booking your mailbox makeover appointment with Riley\'s Mailboxes! We\'ll contact you within 24 hours to confirm your visit and discuss your project.',
-  twitterImage: '/images/social/book-success-og.png',
+  twitterImage: '/images/meta/default-og.png',
   robots: 'noindex, nofollow'
 })
 </script>
