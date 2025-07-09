@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-800 text-white py-12 pb-4">
-    <div class="max-w-6xl mx-auto px-8">
+    <div class="max-w-7xl mx-auto px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8">
         <div class="md:text-left text-center">
           <div class="mb-4">
@@ -23,7 +23,7 @@
             <strong>Get in touch</strong><br>
             Schedule your mailbox makeover today
           </p>
-          <NuxtLink to="/schedule" class="inline-block bg-yellow-400 text-gray-800 px-6 py-3 no-underline font-semibold rounded transition-colors duration-300 hover:bg-[#fcf7e8]0">SCHEDULE NOW</NuxtLink>
+          <NuxtLink to="/schedule" class="inline-block bg-yellow-400 text-gray-800 px-6 py-3 no-underline font-semibold transition-colors duration-300 hover:bg-[#fcf7e8]0">Schedule Demo</NuxtLink>
         </div>
       </div>
       <div class="border-t border-gray-600 pt-4 text-center">

@@ -1,13 +1,13 @@
 <template>
-  <section class="py-20 bg-gray-600 text-white">
+  <section class="py-26 bg-gray-600 text-white">
     <div class="max-w-6xl mx-auto px-8 text-center">
       <h2 class="text-3xl md:text-4xl lg:text-5xl font-black mb-16 uppercase tracking-tight">HOW IT WORKS</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
         <div class="flex flex-col items-center">
-          <h3 class="text-lg md:text-xl font-bold mb-6 uppercase tracking-wide">SEND A SNAPSHOT</h3>
+          <h3 class="text-lg md:text-xl font-bold mb-6 uppercase tracking-wide">CHOOSE MAILBOX OPTIONS</h3>
           <p class="text-base leading-relaxed max-w-xs">
-            Upload your current mailbox or pick a style you love.
+            Pick a post style, mailbox color, and addons you love.
           </p>
         </div>
         

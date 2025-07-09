@@ -1,0 +1,19 @@
+# Windsurf Editor Rules
+
+### General Context
+
+-   This is a Nuxt 3 website.
+
+### General Rules
+
+-   Never explain code or changes made, just do it.
+
+### Nuxt Rules
+
+-   Never write typescript. If you see typescript, do not remove it just leave it, unless instructed to remove it.
+-   Always use script setup style in Vue components.
+
+### Tailwind Rules
+
+-   Always use Tailwind CSS classes for styling.
+-   Always use shades of bg-neutral for backgrounds.

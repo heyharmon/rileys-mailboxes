@@ -1,6 +1,6 @@
 <template>
   <header class="absolute top-0 left-0 w-full z-50 py-12">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4">
       <nav class="flex justify-between items-center">
         <div class="hidden md:block">
           <ul class="flex list-none gap-8 m-0 p-0">

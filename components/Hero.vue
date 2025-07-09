@@ -22,7 +22,7 @@
         <p class="text-xl md:text-2xl text-[#fcf7e8] mb-12 font-normal">Locally Owned • Satisfaction Guaranteed</p>
         <div class="mt-8">
           <NuxtLink to="/makeover" class="inline-block bg-[#e9ca5d] text-gray-800 px-8 py-4 text-lg font-semibold no-underline rounded transition-colors duration-300 hover:bg-[#e9ca5d]">
-            Makeover My Mailbox for $229
+            Makeover My Mailbox for $228
           </NuxtLink>
         </div>
       </div>

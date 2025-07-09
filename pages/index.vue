@@ -3,7 +3,9 @@
     <TheHeader />
     <Hero />
     <Feature />
-    <Cards />
+    <ChoosePost />
+    <ChooseMailbox />
+    <ChooseAddons />
     <HowItWorks />
     <CtaSection />
     <TheFooter />
