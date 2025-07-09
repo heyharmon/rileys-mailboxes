@@ -15,7 +15,7 @@
           </NuxtLink>
         </div>
         <div>
-          <NuxtLink to="/schedule" class="bg-white text-black px-6 py-3 no-underline font-semibold rounded transition-colors duration-300 hover:bg-gray-100">
+          <NuxtLink to="/schedule" class="border border-white text-white bg-neutral-800/60 px-6 py-3 no-underline font-semibold rounded transition-colors duration-300 hover:bg-white hover:text-black">
             See Samples
           </NuxtLink>
         </div>

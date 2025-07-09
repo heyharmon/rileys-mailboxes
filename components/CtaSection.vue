@@ -21,7 +21,7 @@
         </h2>
         <p class="text-xl md:text-2xl font-medium mb-12 tracking-wide">LET'S REFRESH YOUR MAILBOX</p>
         <div class="mt-4">
-          <a href="/quote" class="inline-block bg-white text-gray-800 px-10 py-3 text-lg font-semibold no-underline rounded-none transition-all duration-300 hover:bg-gray-100 hover:-translate-y-1">Get My Free Quote</a>
+          <a href="/quote" class="inline-block bg-white text-gray-800 px-10 py-3 text-lg font-semibold no-underline rounded transition-all duration-300 hover:bg-gray-100 hover:-translate-y-1">Get My Free Quote</a>
         </div>
       </div>
     </div>

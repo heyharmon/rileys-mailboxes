@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-800 text-white py-12 pb-4">
     <div class="max-w-7xl mx-auto px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
         <div class="md:text-left text-center">
           <div class="mb-4">
             <NuxtLink to="/" class="flex items-center no-underline">
@@ -10,20 +10,20 @@
           </div>
           <p class="text-sm text-gray-300 m-0">Fresh mailboxes, fresh curb appeal.</p>
         </div>
-        <div class="md:text-left text-center">
+        <!-- <div class="md:text-left text-center">
           <ul class="list-none p-0 m-0">
             <li class="mb-2"><NuxtLink to="/about" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">About</NuxtLink></li>
             <li class="mb-2"><NuxtLink to="/programs" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Programs</NuxtLink></li>
             <li class="mb-2"><NuxtLink to="/press" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Press</NuxtLink></li>
             <li class="mb-2"><NuxtLink to="/contact" class="text-gray-300 no-underline transition-colors duration-300 hover:text-white">Contact</NuxtLink></li>
           </ul>
-        </div>
-        <div class="md:text-left text-center">
+        </div> -->
+        <div class="text-center">
           <p class="text-sm mb-4 text-gray-300">
             <strong>Get in touch</strong><br>
             Schedule your mailbox makeover today
           </p>
-          <NuxtLink to="/schedule" class="inline-block bg-yellow-400 text-gray-800 px-6 py-3 no-underline font-semibold transition-colors duration-300 hover:bg-[#fcf7e8]0">Schedule Demo</NuxtLink>
+          <NuxtLink to="/schedule" class="inline-block bg-[#e9ca5d] text-gray-800 px-6 py-3 rounded no-underline font-semibold transition-colors duration-300 hover:bg-[#fcf7e8]0">Schedule Demo</NuxtLink>
         </div>
       </div>
       <div class="border-t border-gray-600 pt-4 text-center">
