@@ -218,6 +218,20 @@
 <script setup>
 import { ref, computed, watch, nextTick } from 'vue'
 
+useSeoMeta({
+  title: 'Book Your Mailbox Makeover - Riley\'s Mailboxes | Centerville, Utah',
+  description: 'Schedule your $380 mailbox makeover appointment with Riley\'s Mailboxes. Quick booking process, flexible scheduling, and satisfaction guaranteed in Centerville, Utah.',
+  ogTitle: 'Book Your Mailbox Makeover - Riley\'s Mailboxes',
+  ogDescription: 'Schedule your $380 mailbox makeover appointment with Riley\'s Mailboxes. Quick booking process, flexible scheduling, and satisfaction guaranteed in Centerville, Utah.',
+  ogImage: '/images/social/book-og.png',
+  ogUrl: 'https://rileysmailboxes.com/book',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Book Your Mailbox Makeover - Riley\'s Mailboxes',
+  twitterDescription: 'Schedule your $380 mailbox makeover appointment with Riley\'s Mailboxes. Quick booking process, flexible scheduling, and satisfaction guaranteed in Centerville, Utah.',
+  twitterImage: '/images/social/book-og.png'
+})
+
 const currentStep = ref(1)
 const formData = ref({
   name: '',

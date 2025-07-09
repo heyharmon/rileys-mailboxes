@@ -36,14 +36,14 @@ const products = [
   {
     id: 1,
     name: 'NUMBERS',
-    price: 49,
+    price: 50,
     image: '/images/products/numbers.png',
     description: 'Premium address numbers to personalize your mailbox with clear, weather-resistant visibility.'
   },
   {
     id: 2,
     name: 'SOLAR LIGHT',
-    price: 19,
+    price: 30,
     image: '/images/products/solar-light.png',
     description: 'Solar-powered LED light for enhanced visibility and security during nighttime hours.'
   }

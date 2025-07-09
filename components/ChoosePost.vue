@@ -36,35 +36,35 @@ const products = [
   {
     id: 1,
     name: 'HONEY MAPLE',
-    price: 139,
+    price: 210,
     image: '/images/products/honey-maple.png',
     description: 'Beautiful honey maple finish mailbox with premium craftsmanship and weather-resistant coating.'
   },
   {
     id: 2,
     name: 'KONA',
-    price: 139,
+    price: 210,
     image: '/images/products/kona.png',
     description: 'Rich Kona finish mailbox featuring elegant design and durable construction for lasting beauty.'
   },
   {
     id: 3,
     name: 'NATURAL PINE',
-    price: 139,
+    price: 210,
     image: '/images/products/natural-pine.png',
     description: 'Classic natural pine mailbox with authentic wood grain and protective finish for outdoor use.'
   },
   {
     id: 4,
     name: 'WHITE PAINTED',
-    price: 139,
+    price: 210,
     image: '/images/products/white-painted.png',
     description: 'Clean white painted mailbox with smooth finish and superior weather protection.'
   },
   {
     id: 5,
     name: 'WHITE STAINED',
-    price: 139,
+    price: 210,
     image: '/images/products/white-stained.png',
     description: 'Elegant white stained mailbox combining natural wood beauty with modern appeal.'
   }

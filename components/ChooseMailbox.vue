@@ -36,14 +36,14 @@ const products = [
   {
     id: 1,
     name: 'BLACK MAILBOX',
-    price: 89,
+    price: 90,
     image: '/images/products/black-mailbox.png',
     description: 'Sleek black mailbox with premium finish and weather-resistant coating for lasting durability.'
   },
   {
     id: 2,
     name: 'WHITE MAILBOX',
-    price: 89,
+    price: 90,
     image: '/images/products/white-mailbox.png',
     description: 'Classic white mailbox featuring clean lines and superior weather protection.'
   }
