@@ -1,9 +1,13 @@
 <template>
   <section class="py-16 bg-[#fcf7e8]">
     <div class="max-w-[1600px] mx-auto px-8">
-      <h2 class="text-3xl md:text-4xl font-black text-center mb-12 text-gray-800 uppercase tracking-tight">
+      <h2 class="text-3xl md:text-4xl font-black text-center mb-6 text-gray-800 uppercase tracking-tight">
         CHOOSE YOUR POST
       </h2>
+      <p class="text-lg leading-relaxed text-center mb-12 text-gray-700 max-w-lg mx-auto">
+        All post include installation, cleanup, and a 100% satisfaction guarantee as part of the price of the post.
+      </p>
+
       <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         <div 
           v-for="product in products" 
