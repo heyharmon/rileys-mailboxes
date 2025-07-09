@@ -22,8 +22,6 @@
         description="LET'S REFRESH YOUR MAILBOX"
         primary-cta-text="Book Now"
         primary-cta-link="/book"
-        secondary-cta-text="See a Sample"
-        secondary-cta-link="/sample"
     />
     <TheFooter />
   </div>

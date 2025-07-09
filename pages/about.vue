@@ -132,8 +132,6 @@
       description="LET'S TRANSFORM YOUR MAILBOX TODAY"
       primary-cta-text="Book Now"
       primary-cta-link="/book"
-      secondary-cta-text="See a Sample"
-      secondary-cta-link="/sample"
     />
 
     <TheFooter />
