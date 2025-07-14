@@ -1,5 +1,5 @@
 <template>
-  <section :class="`relative ${height} w-full rounded-[3rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden`">
+  <section :class="`relative ${height} min-h-[700px] w-full rounded-[3rem] rounded-t-none flex items-center justify-center text-center text-white overflow-hidden`">
     <!-- Background image layer -->
     <div class="absolute inset-0 z-10">
       <NuxtImg 

@@ -3,7 +3,6 @@
     <div class="max-w-[1600px] mx-auto px-8">
       <div class="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-24">
         <div class="lg:w-5/12 lg:pl-8">
-          <NuxtImg src="/images/homepage/riley-and-dad.png" alt="Riley and Dad" class="size-24 rounded-full mb-4 object-cover" />
           <h2 class="text-3xl md:text-4xl font-black leading-tight mb-6 text-gray-800 uppercase tracking-tight">
             AFFORDABLE MAILBOX MAKEOVERS BY FATHER & SON
           </h2>
