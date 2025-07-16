@@ -10,7 +10,7 @@
     </div>
     
     <!-- Dark overlay -->
-    <div class="absolute inset-0 bg-gray-900/60 z-20"></div>
+    <div class="absolute inset-0 bg-gray-900/80 z-20"></div>
     
     <!-- Content -->
     <div class="relative z-30 max-w-6xl px-8" :class="paddingTop">
