@@ -2,8 +2,7 @@
   <div class="bg-[#fcf7e8]">
     <TheHeader />
     <Hero 
-        pretitle="Serving Centerville, Utah"
-        title="FRESH MAILBOXES FRESH CURB APPEAL" 
+        title="We replace mailboxes in Salt Lake City" 
         description="Locally Owned • Satisfaction Guaranteed"
         ctaText="Makeover My Mailbox for $380"
         ctaLink="/book"

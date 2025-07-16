@@ -13,9 +13,9 @@
     <div class="absolute inset-0 bg-gray-900/60 z-20"></div>
     
     <!-- Content -->
-    <div class="relative z-30 max-w-4xl px-8" :class="paddingTop">
+    <div class="relative z-30 max-w-6xl px-8" :class="paddingTop">
       <p v-if="pretitle" class="text-xl text-[#fcf7e8] mb-12">{{ pretitle }}</p>
-      <h1 class="text-4xl md:text-5xl lg:text-6xl text-[#fcf7e8] font-extrabold mb-6 leading-tight uppercase">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl text-[#fcf7e8] font-extrabold mb-6 leading-tight uppercase">
         {{ title }}
       </h1>
       <p v-if="description" class="text-xl md:text-2xl text-[#fcf7e8] mb-12 font-normal">{{ description }}</p>
