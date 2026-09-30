@@ -316,6 +316,8 @@ const handleSubmit = async (event) => {
         body: formDataToSubmit
       })
       
+      window.gtag?.('event', 'generate_lead')
+
       // Redirect to success page
       await navigateTo('/book-success')
       

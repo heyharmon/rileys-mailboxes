@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="lg:w-6/12">
-            <form class="bg-white p-8 rounded-3xl shadow-lg" action="https://usebasin.com/f/2a05631523ce" method="POST" enctype="multipart/form-data" id="form">
+            <form class="bg-white p-8 rounded-3xl shadow-lg" action="https://usebasin.com/f/2a05631523ce" method="POST" enctype="multipart/form-data" id="form" @submit="trackLead">
               <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label for="firstName" class="block text-sm font-bold text-gray-800 mb-2 uppercase tracking-wide">First Name *</label>
@@ -128,6 +128,9 @@
 
 <script setup>
 // Contact page component
+
+// The form posts straight to Basin, so the event is sent as a beacon before the page leaves.
+const trackLead = () => window.gtag?.('event', 'generate_lead', { transport_type: 'beacon' })
 
 useSeoMeta({
   title: 'Contact Riley\'s Mailboxes - Get Your Free Quote | Centerville, Utah',
