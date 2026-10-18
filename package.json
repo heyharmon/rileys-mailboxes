@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "prebuild": "node scripts/sitemap.mjs --snapshot",
+    "build": "node scripts/sitemap.mjs && nuxt build && node scripts/indexnow.mjs",
+    "lastmod": "node scripts/sitemap.mjs --snapshot",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
